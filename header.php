@@ -39,7 +39,8 @@
 				'container' => '', 
 				'menu_class' => '', 
 				'menu_id' => '', 
-				'items_wrap' => '%3$s' 
+				'items_wrap' => '%3$s',
+				'depth' => 1
 			) ); ?>
 		</ul>
 	</aside>
