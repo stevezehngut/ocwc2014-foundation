@@ -1,0 +1,109 @@
+body {
+  background: #fff;
+  color: #535252;
+  line-height: 1; }
+
+a,
+a:visited {
+  color: royalblue; }
+
+/* HEADER */
+.site-branding {
+  background: #425F9C;
+  padding: 1em 0 2em; }
+
+.site-title {
+  font-size: 3.2em;
+  font-weight: 700;
+  margin: 0; }
+
+.site-title a {
+  color: #fff; }
+
+.site-description {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0; }
+
+/* NAV */
+#site-navigation {
+  background: #333; }
+
+.left-off-canvas-menu ul {
+  margin: 0; }
+
+.left-off-canvas-menu li a {
+  display: block;
+  padding: 12px 10px;
+  border-bottom: 1px #545454 solid;
+  color: #fff; }
+
+/* FOOTER */
+#colophon {
+  background: #383737;
+  padding: 1.5em 0 2em;
+  color: #fff; }
+
+#colophon a {
+  color: #fff;
+  text-decoration: underline; }
+
+/* CONTENT */
+.entry-title,
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0; }
+
+.entry-title a,
+.page-title a {
+  color: #535252; }
+
+.entry-summary {
+  margin: 1em 0 0; }
+
+.entry-meta {
+  margin-bottom: 1rem; }
+
+#primary,
+#secondary {
+  margin: 2.5em 0; }
+
+.sidebar {
+  background: #efefef;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede; }
+
+.widget-title,
+.widgettitle,
+#reply-title {
+  font-size: 1.4rem;
+  font-weight: 700; }
+
+.vcard {
+  display: inline;
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+.vcard .fn {
+  font-weight: normal;
+  font-size: 1rem; }
+
+code {
+  color: royalblue; }
+
+.wp-post-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem; }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 40em) {
+  #wpadminbar {
+    position: fixed; }
+
+  .sidebar {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #dedede; } }
