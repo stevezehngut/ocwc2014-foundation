@@ -22,7 +22,7 @@
 
 <!-- Foundation .off-canvas-wrap start -->
 
-<div class="off-canvas-wrap">
+<div class="off-canvas-wrap" data-offcanvas>
 	<div class="inner-wrap">
 
 	<nav class="tab-bar hide-for-large-only">
